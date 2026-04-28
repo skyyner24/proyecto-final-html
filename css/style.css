@@ -1,5 +1,6 @@
 body{
 	 font-family: 'Merienda';font-size: 15px;
+	 /* linear-gradient(278deg, rgb(180 224 249) 10%, white 80%); */
 }
 .nav-item{
 	padding-right: 12px;
@@ -14,9 +15,14 @@ body{
 	background-color: lightgrey !important;
 }
 
-.reserve-container{
-	position: relative;
+.reserve-container {
+  background-image: url('../images/reserve.webp');
+  background-size: cover;
+  background-position: center;
+  height: 590px; /* ajusta a tu gusto */
+  position: relative;
 }
+
 .card-body{
 	-webkit-transition: all 1s ease; /* Safari and Chrome */
   	-moz-transition: all 1s ease; /* Firefox */
@@ -32,11 +38,12 @@ body{
 	transform: scale(1.05);
 }
 
-.reserve-text{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.reserve-text {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black; /* o blanco según contraste */
 }
 
 .image-reserve{
@@ -91,4 +98,8 @@ footer{
 	position: fixed;
 	bottom: 0px;
 	padding-top: 20px;
+}
+
+p{
+    text-align: justify;
 }
