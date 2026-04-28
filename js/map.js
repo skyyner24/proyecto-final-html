@@ -1,6 +1,6 @@
 function myMap() {
   var mapCanvas = document.getElementById("map");
-  var myCenter = new google.maps.LatLng(45.579591,9.164906); 
+  var myCenter = new google.maps.LatLng(20.092196, -98.770323); 
   var mapOptions = {center: myCenter, zoom: 13};
   var map = new google.maps.Map(mapCanvas,mapOptions);
   var marker = new google.maps.Marker({
@@ -8,3 +8,5 @@ function myMap() {
   });
   marker.setMap(map);
 }
+
+
