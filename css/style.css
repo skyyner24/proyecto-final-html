@@ -1,6 +1,6 @@
 body{
-	 font-family: 'Merienda';font-size: 15px;
-	 /* linear-gradient(278deg, rgb(180 224 249) 10%, white 80%); */
+	font-family: 'Merienda';font-size: 15px;
+	background: url(/images/triangle-mosaic.png);
 }
 .nav-item{
 	padding-right: 12px;
@@ -21,6 +21,7 @@ body{
   background-position: center;
   height: 590px; /* ajusta a tu gusto */
   position: relative;
+  border-style: 15px solid black;
 }
 
 .card-body{
