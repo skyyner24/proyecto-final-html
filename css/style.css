@@ -1,6 +1,7 @@
 body{
 	font-family: 'Merienda';font-size: 15px;
 	background: url(/images/triangle-mosaic.png);
+	
 }
 .nav-item{
 	padding-right: 12px;
@@ -13,6 +14,7 @@ body{
 }
 .nav-link.active{
 	background-color: lightgrey !important;
+	border-radius: 10%;
 }
 
 .reserve-container {
@@ -57,7 +59,7 @@ body{
 }
 
 .img-slider{
-	min-height: 320px;
+	min-height: 350px;
 }
 
 .navMenu{
